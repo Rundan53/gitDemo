@@ -36,3 +36,14 @@ for(let i=0;i<items.length;i++){
     items[i].style.color='red';
     items[i].style.fontWeight='bold';
 }
+
+//getElements by Tagname
+let item5= document.getElementsByClassName('list-group-item');
+console.log(item5);
+//notShowing item5
+
+let Items= document.getElementsByTagName('li');
+console.log(Items);
+
+Items[4].style.color='black';
+
